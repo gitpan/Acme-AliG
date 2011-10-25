@@ -2,14 +2,14 @@ NAME
     Acme::AliG - Translates from English to Ali G
 
 VERSION
-    version 0.0001
+    version 0.0100
 
 SYNOPSIS
         echo hello | alig
 
 DESCRIPTION
     This module provides a script called alig. It will translate whatever
-    you feed it via STDIN to Ali G.
+    you feed it via STDIN from English to Ali G.
 
 AUTHOR
     Naveed Massjouni <naveedm9@gmail.com>

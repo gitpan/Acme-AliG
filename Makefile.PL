@@ -4,27 +4,27 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Translates from English to Ali G',
-  'AUTHOR' => 'Naveed Massjouni <naveedm9@gmail.com>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "ABSTRACT" => "Translates from English to Ali G",
+  "AUTHOR" => "Naveed Massjouni <naveedm9\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Acme-AliG',
-  'EXE_FILES' => [
-    'bin/alig'
+  "DISTNAME" => "Acme-AliG",
+  "EXE_FILES" => [
+    "bin/alig"
   ],
-  'LICENSE' => 'perl',
-  'NAME' => 'Acme::AliG',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.0001',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "LICENSE" => "perl",
+  "NAME" => "Acme::AliG",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.0100",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
