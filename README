@@ -2,7 +2,7 @@ NAME
     Acme::AliG - Translates from English to Ali G
 
 VERSION
-    version 0.0100
+    version 0.0101
 
 SYNOPSIS
         echo hello | alig

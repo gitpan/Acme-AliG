@@ -15,4 +15,4 @@ name: Acme-AliG
 resources:
   bugtracker: http://github.com/ironcamel/Acme-AliG/issues
   repository: git://github.com/ironcamel/Acme-AliG.git
-version: 0.0100
+version: 0.0101
