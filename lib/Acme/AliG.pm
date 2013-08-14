@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT = qw(alig);
 
-our $VERSION = '0.0101'; # VERSION
+our $VERSION = '0.0102'; # VERSION
 
 my %words = (
     "absent" => "not in da house",
@@ -280,14 +280,14 @@ my %words = (
     "hassle" => "aggro",
     "hate" => "don't dig",
     "hated" => "rank",
-    "hello" => "alo",
+    "hello" => "allo",
     "here" => "ere",
     "here" => "in da house",
     "heroin" => "gear",
-    "hi" => "alo",
+    "hi" => "allo",
     "hiphop" => "speed garage",
     "his" => "is",
-    "hiya" => "alo",
+    "hiya" => "allo",
     "hole" => "batty",
     "home" => "turf",
     "home" => "westside",
@@ -747,6 +747,7 @@ sub alig {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -755,11 +756,13 @@ Acme::AliG - Translates from English to Ali G
 
 =head1 VERSION
 
-version 0.0101
+version 0.0102
 
 =head1 SYNOPSIS
 
     echo hello | alig
+
+The above command will print 'allo'.
 
 =head1 DESCRIPTION
 
@@ -778,4 +781,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

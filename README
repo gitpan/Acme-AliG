@@ -2,10 +2,12 @@ NAME
     Acme::AliG - Translates from English to Ali G
 
 VERSION
-    version 0.0101
+    version 0.0102
 
 SYNOPSIS
         echo hello | alig
+
+    The above command will print 'allo'.
 
 DESCRIPTION
     This module provides a script called alig. It will translate whatever
